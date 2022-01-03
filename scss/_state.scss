@@ -1,0 +1,23 @@
+.card--bg-orange {
+  background-color: var(--clr-bright-orange);
+
+  .card__btn {
+    color: var(--clr-bright-orange);
+  }
+}
+
+.card--bg-cyan {
+  background-color: var(--clr-dark-cyan);
+
+  .card__btn {
+    color: var(--clr-dark-cyan);
+  }
+}
+
+.card--bg-darkCyan {
+  background-color: var(--clr-very-dark-cyan);
+
+  .card__btn {
+    color: var(--clr-very-dark-cyan);
+  }
+}

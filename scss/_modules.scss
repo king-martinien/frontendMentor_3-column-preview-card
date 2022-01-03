@@ -1,0 +1,33 @@
+.card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+
+  &__title {
+    font-family: var(--font-family-BigShoulderDisplay);
+    text-transform: uppercase;
+  }
+
+  &__text {
+    line-height: 24px;
+  }
+
+  &__btn {
+    background-color: var(--clr-very-light-gray);
+    border: 2px solid var(--clr-very-light-gray);
+    padding: 12px 24px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: transparent;
+      color: var(--clr-very-light-gray) !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 280px;
+  }
+}
